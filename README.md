@@ -10,8 +10,7 @@ Players can enjoy the classic 3×3 grid game in a clean and interactive interfac
 - 🏆 Detects win, draw, and reset functionality  
 - 🌐 Built with Flask for easy hosting  
 
----
-
+```
 ## 📂 Project Structure
 tic\_tac\_toe/
 │── static/
@@ -23,11 +22,8 @@ tic\_tac\_toe/
 │
 │── app.py               # Flask backend
 │── README.md            # Project documentation
-
-
 ```
-
----
+```
 
 ## 🎯 How to Play
 - The board has **9 positions**  
@@ -35,12 +31,9 @@ tic\_tac\_toe/
 - First to align **3 in a row, column, or diagonal** wins!  
 - If the board is full and no winner → It's a **Draw**  
 
----
-
 ## 🚀 Future Improvements
 - Add single-player mode with AI  
 - Online multiplayer support  
 - Score tracking system  
 
----
 ```
