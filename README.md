@@ -13,28 +13,34 @@ Players can enjoy the classic 3×3 grid game in a clean and interactive interfac
 ---
 
 ## 📂 Project Structure
-
-tic_tac_toe/
+tic\_tac\_toe/
 │── static/
-│ ├── style.css # CSS styling
-│ ├── script.js # Game logic (JS)
+│   ├── style.css        # CSS styling
+│   ├── script.js        # Game logic (JS)
 │
 │── templates/
-│ ├── index.html # Game UI
+│   ├── index.html       # Game UI
 │
-│── app.py # Flask backend
-│── README.md # Project documentation
+│── app.py               # Flask backend
+│── README.md            # Project documentation
 
 
-🎯 How to Play
+```
 
--> The board has 9 positions.
--> Players take turns clicking on the grid to place their mark (X or O).
--> First to align 3 in a row, column, or diagonal wins!
--> If the board is full and no winner → It's a Draw.
+---
 
-🚀 Future Improvements
+## 🎯 How to Play
+- The board has **9 positions**  
+- Players take turns clicking on the grid to place their mark (`X` or `O`)  
+- First to align **3 in a row, column, or diagonal** wins!  
+- If the board is full and no winner → It's a **Draw**  
 
-* Add single-player mode with AI
-* Online multiplayer support
-* Score tracking system
+---
+
+## 🚀 Future Improvements
+- Add single-player mode with AI  
+- Online multiplayer support  
+- Score tracking system  
+
+---
+```
