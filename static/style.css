@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230225/pngtree-blue-background-wallpaper-hd-cyan-colour-free-image_1719989.jpg");
+  background-size:cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+#status {
+  font-size: 1.3rem;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #222;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 8px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 2px solid rgb(0, 0, 0, 0.3);
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.cell:hover {
+  transform: scale(1.1);
+}
+
+/* Colors for X and O */
+.cell.x {
+  color: #e91e63; /* Pink for X */
+}
+
+.cell.o {
+  color: #2196f3; /* Blue for O */
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#reset:hover {
+  background: #388e3c;
+}
